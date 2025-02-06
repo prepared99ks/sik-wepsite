@@ -1,0 +1,38 @@
+/* 기본 body 스타일 */
+body {
+    background-color: white;  
+    color: black;             
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;            
+    margin: 0;
+    font-size: 30px;                
+}
+
+/* content 클래스 스타일 */
+.content {
+    text-align: center;
+}
+
+/* 방명록 관련 스타일 */
+.guestbook {
+    margin-top: 20px;
+}
+
+.guestbook form {
+    margin-bottom: 20px;
+}
+
+.guestbook ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.guestbook li {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
